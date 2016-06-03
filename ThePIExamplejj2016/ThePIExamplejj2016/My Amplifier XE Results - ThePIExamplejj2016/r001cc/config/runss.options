@@ -1,0 +1,18 @@
+-r
+c:\Users\multiproc\documents\visual studio 2010\Projects\ThePIExamplejj2016\ThePIExamplejj2016\My Amplifier XE Results - ThePIExamplejj2016\r001cc
+--data-limit-mb=100
+--follow-child
+--type=frame:counters
+--stackwalk=offline
+--mrte-mode=auto
+--type=cpu:counters
+--type=cpu:stack
+--type=threading:stack
+--type=waiting:stack
+--type=io:stack
+--search-dir
+sym:p=c:/users/multiproc/documents/visual studio 2010/Projects/ThePIExamplejj2016/Debug
+--search-dir
+sym=c:/users/multiproc/documents/visual studio 2010/Projects/ThePIExamplejj2016
+--
+c:\users\multiproc\documents\visual studio 2010\Projects\ThePIExamplejj2016\Debug\ThePIExamplejj2016.exe
