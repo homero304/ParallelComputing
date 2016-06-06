@@ -1,0 +1,24 @@
+﻿Build started 6/6/2016 5:38:17 PM.
+     1>Project "c:\Users\multiproc\documents\visual studio 2010\Projects\MatrixAddition\MatrixAddition\MatrixAddition.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\MatrixAddition.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       MessageBuildingWithCompiler:
+         Building with Intel(R) C++ Compiler XE 12.0
+       ClCompile:
+         ***** ClCompile (Win32 - Intel C++)
+         C:\Program Files (x86)\Intel\ComposerXE-2011\bin\ia32\icl.exe /c /Qvc10 /Qlocation,link,"$(VCInstallDir)\bin" /ZI /nologo /W3 /Od /Qftz- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TC myCode.c
+         myCode.c
+       Link:
+         C:\Program Files (x86)\Intel\ComposerXE-2011\bin\ia32\xilink.exe /OUT:"c:\users\multiproc\documents\visual studio 2010\Projects\MatrixAddition\Debug\MatrixAddition.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\MatrixAddition.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"c:\users\multiproc\documents\visual studio 2010\Projects\MatrixAddition\Debug\MatrixAddition.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\multiproc\documents\visual studio 2010\Projects\MatrixAddition\Debug\MatrixAddition.lib" /MACHINE:X86 Debug\myCode.obj
+         xilink: executing 'link'
+         MatrixAddition.vcxproj -> c:\users\multiproc\documents\visual studio 2010\Projects\MatrixAddition\Debug\MatrixAddition.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"c:\users\multiproc\documents\visual studio 2010\Projects\MatrixAddition\Debug\MatrixAddition.exe;#1" /manifest Debug\MatrixAddition.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\MatrixAddition.unsuccessfulbuild".
+         Touching "Debug\MatrixAddition.lastbuildstate".
+     1>Done Building Project "c:\Users\multiproc\documents\visual studio 2010\Projects\MatrixAddition\MatrixAddition\MatrixAddition.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.05
